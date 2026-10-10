@@ -17,7 +17,7 @@ logger.configure(**logger_config)
 
 API_URL = "https://api.dmarket.com"
 API_URL_TRADING = API_URL
-# GAMES = [Games.CS, Games.DOTA, Games.RUST]
+# GAMES = [Games.CS]
 GAMES = [Games.CS]
 DATABASE_NAME = '/skins.db'
 
