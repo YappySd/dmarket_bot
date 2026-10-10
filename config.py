@@ -32,18 +32,18 @@ class Timers:
 
 class PrevParams:
     # POPULARITY = 3
-    MIN_AVG_PRICE = 900
-    MAX_AVG_PRICE = 35000
+    MIN_AVG_PRICE = 50
+    MAX_AVG_PRICE = 3500
 
 
 class BuyParams:
-    STOP_ORDERS_BALANCE = 1000
+    STOP_ORDERS_BALANCE = 100
     FREQUENCY = True
-    MIN_PRICE = 1000
-    MAX_PRICE = 12500
+    MIN_PRICE = 50
+    MAX_PRICE = 3500
 
-    PROFIT_PERCENT = 5
-    GOOD_POINTS_PERCENT = 30
+    PROFIT_PERCENT = 7
+    GOOD_POINTS_PERCENT = 50
     AVG_PRICE_COUNT = 7
 
     ALL_SALES = 80
@@ -52,7 +52,7 @@ class BuyParams:
     LAST_SALE = 3  # Последняя продажа не позднее LAST_SALE дней назад
     FIRST_SALE = 20  # Первая покупка не позже FIRST_SALE дней назад
 
-    MAX_COUNT_SELL_OFFERS = 20
+    MAX_COUNT_SELL_OFFERS = 50
 
     BOOST_PERCENT = 24
     BOOST_POINTS = 3
