@@ -8,7 +8,7 @@ furl==2.1.0
 idna==2.10
 loguru==0.5.3
 multidict==5.1.0
-numpy==1.20.1
+numpy
 orderedmultidict==1.0.1
 pandas==1.2.3
 peewee==3.14.0
