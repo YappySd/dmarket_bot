@@ -5,6 +5,7 @@ from config import *
 from modules.skinbase import SkinBase
 from modules.orders import Orders
 from modules.offers import History, Offers
+from telegram_notifier import send_telegram_message
 
 
 bot = DMarketApi(PUBLIC_KEY, SECRET_KEY)
@@ -102,6 +103,7 @@ async def main_loop():
 def main():
     try:
         logger.info('Запуск бота')
+        send_telegram_message("🤖 Бот DMarket успешно запущен и начал работу!")  # <-- Добавьте эту строчку сюда
         loop = asyncio.get_event_loop()
         loop.run_until_complete(main_loop())
     except KeyboardInterrupt:
